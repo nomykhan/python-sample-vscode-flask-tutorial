@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:az400m05l05a-pool
-#  vmImage: ubuntu-latest
+pool: az400m05l05a-pool
 strategy:
   matrix:
     Python37:
